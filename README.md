@@ -1,63 +1,43 @@
-# ResizeKit 🚀
+# ResizeKit
 
-**Social Media Image Resizer** — Resize your images perfectly for every platform in seconds.
+Browser tool for resizing images to social-platform presets (Instagram, TikTok, X/Twitter, YouTube, Facebook, LinkedIn) or a custom size.
 
-A fast, beautiful, and easy-to-use web tool to resize images for Instagram, TikTok, Twitter/X, YouTube, Facebook, LinkedIn and more.
+**Live:** [resize-kit.vercel.app](https://resize-kit.vercel.app/)
 
-## ✨ Features
+## Features
 
-- ⚡ Lightning fast resizing
-- 📱 Preset sizes for all major social platforms
-- 🎨 Clean & modern UI
-- 🖼️ Drag & drop support
-- 📥 One-click download
-- 🔄 Maintain aspect ratio option
-- 🌙 Dark mode support
+- Platform presets + custom dimensions
+- Drag and drop upload
+- Aspect-ratio lock option
+- One-click download
+- Dark mode
+- ZIP helpers for batch-style export flows (`jszip` / `file-saver`)
 
-## 🎯 Supported Platforms
+## Stack
 
-- Instagram (Post, Story, Reel)
-- TikTok
-- Twitter / X
-- YouTube (Thumbnail, Channel Art)
-- Facebook
-- LinkedIn
-- Custom size
+| Piece | Choice |
+|---|---|
+| App | Vite + React + TypeScript |
+| UI | Tailwind CSS |
+| Extras | Lucide icons, optional Supabase client |
+| Host | Vercel |
 
-## Live Demo
-
-👉 **[Try ResizeKit](https://resize-kit.vercel.app/)**
-
-## Tech Stack
-
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
-- Vercel
-
-## How to Use
-
-1. Visit [resize-kit.vercel.app](https://resize-kit.vercel.app/)
-2. Drag & drop or upload your image
-3. Choose a platform or custom size
-4. Download instantly ✅
-
-## Run Locally
+## Run locally
 
 ```bash
-git clone https://github.com/yourusername/resize-kit.git
-cd resize-kit
+git clone https://github.com/xusnitdinov/ResizeKit.git
+cd ResizeKit
 npm install
 npm run dev
 ```
 
-## Contributing
+Build:
 
-Feel free to open issues or submit pull requests. Any contribution is appreciated!
+```bash
+npm run build
+npm run preview
+```
 
 ## License
-MIT © [Azizbek](https://github.com/xusnitdinov)
 
-
-Made with ❤️ by Azizbek
+MIT
