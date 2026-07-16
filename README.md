@@ -4,6 +4,14 @@ Browser tool for resizing images to social-platform presets (Instagram, TikTok, 
 
 **Live:** [resize-kit.vercel.app](https://resize-kit.vercel.app/)
 
+## Screenshots
+
+### Home
+
+![ResizeKit home](docs/screenshots/home.png)
+
+*Upload one image, pick social platform presets, and download resized versions - all in the browser.*
+
 ## Features
 
 - Platform presets + custom dimensions
