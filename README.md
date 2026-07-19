@@ -49,3 +49,5 @@ npm run preview
 ## License
 
 MIT
+
+Made by Xusnitidnov Azizbek
